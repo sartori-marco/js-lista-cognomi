@@ -16,3 +16,10 @@ cognomi.push(cognomeUtente);
 // STAMPO SU HTML I COGNOMI
 
 document.getElementById('cognomi-lista').innerHTML += cognomi;
+
+
+// METTO I COGNOMI IN ORDINE ALFABETICO
+
+document.getElementById('ordine-alfabetico').innerHTML += cognomi.sort();
+
+// INDICO LA POSIZIONE "UMANA" DEL COGNOME INSERITO DALL'UTENTE
